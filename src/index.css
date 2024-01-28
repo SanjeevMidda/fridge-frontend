@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.App{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("./images/Group\ 15.svg");
+}
+
+.itemContainer{
+  margin: 10px;
+}
+
+.fridgeyContainer{
+  background-color: rgba(0, 0, 0, 0.382);
+  border-radius: 20px;
+  padding: 20px;
+  transform: rotate(-25deg);
+}
